@@ -6,26 +6,25 @@ const apm=document.querySelector(".ampm")
 
 function uptime(){
     const time=new Date();
-    const hrr=time.getHours();
-    // hr.innerText=time.getHours();
-    mn.innerText=time.getMinutes();
-    sec.innerText=time.getSeconds();
+    const hrr=time.getHours();   
+    const mnn=8;
+    const ssec=time.getSeconds();
     msec.innerText=time.getMilliseconds();
-  
-    hr.innerText=hrr;
     
-     if(hrr>12){
+    mn.innerText=(mnn<10)?"0"+mnn:mnn;
+    sec.innerText=(ssec<10)?"0"+ssec:ssec;
+    if(hrr>12){
         hr.innerText=(hrr-12);
         apm.innerText="pm";
     }
     else{
-        hr.innerText=hrr;
         apm.innerText="am";
+        hr.innerText=(hrr<10)?"0"+hrr:hrr;
         // hrr=hrr-12;
     }
     setTimeout(() => {
         uptime();
-    }, 0);
+    },1000);
 }
 
 uptime();
