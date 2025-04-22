@@ -1,0 +1,147 @@
+/* h1{text-align: center;} */
+
+body{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.contaner{
+    padding-top: 60px;
+}
+ .clockcontaner{
+    display: flex;
+    text-align: center;
+    
+} 
+
+.hors{
+    margin-left: 40px;
+    font-size: 30px;
+    display: grid;
+    background-color:#2E8B57;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.hnum{
+    background-color: #9ACD32;
+    height: 60px;
+    width: 140px;
+   padding-top: 30px;
+   border-radius: 30px;
+    
+}
+.htext{
+    background-color: #D3D3D3;
+    height: 40px;
+    width: 140px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+.mins{
+    background-color: #FFA07A;
+    font-size: 30px;
+    margin-left: 40px;
+    display: grid;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.mnum{
+    
+    background-color: #F0F8FF;
+    height: 60px;
+    width: 140px;
+    padding-top: 30px;
+    border-radius: 30px;
+}
+.mtext{
+    
+    
+    background-color:#CD853F;
+    height: 40px;
+    width: 140px;
+    padding-top: 10px;
+    border-radius: 30px;
+    
+}
+.sec{
+    background-color: #8A2BE2;
+    font-size: 30px;
+    margin-left: 40px;
+    display: grid;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.snum{
+    background-color: #DDA0DD;
+    height: 60px;
+    width: 140px;
+   padding-top: 30px;
+   font-size: 30px;
+   border-radius: 30px;
+}
+.stext{
+    background-color: #FFFFE0;
+    height: 40px;
+    width: 140px;
+    padding-top: 10px;
+    border-radius: 30px;
+
+}
+.msec{
+    margin-left: 40px;
+    font-size: 30px;
+    display: grid;
+    background-color: #808000;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.milinum{
+    background-color:#F5F5DC;
+    height: 60px;
+    width: 140px;
+   padding-top: 30px;
+   border-radius: 30px;
+    
+}
+.militext{
+    background-color: #F0E68C;
+    height: 40px;
+    width: 140px;
+    font-size: 25px;
+    border-radius: 30px;
+    
+}
+.ampm{
+    background-color:#4682B4;
+    margin-left: 40px;
+    margin-top: 107px;
+    height: 45px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 30px;
+}
+.heading{
+   color: beige;
+   font-size: 55px;
+}
